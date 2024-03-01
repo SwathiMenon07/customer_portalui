@@ -1,0 +1,76 @@
+.conn{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-danger{
+    color: red;
+    text-align: left;
+   
+}
+form{
+    width:800 px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+    font-weight: bold;
+    text-align: right;
+}
+
+h2
+{text-align: center;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 30px;
+font-size:xx-large;
+}
+
+input[type="text"],input[type="password"]{
+    font-family: 'Times New Roman', Times serif;
+    width:100 px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+
+button{
+    background-color:  rgb(76, 197, 235);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+button:hover{
+    background-color: cadetblue;
+}
+.center-button{
+display: block;
+margin-left: 60px;
+}
+.links{
+    text-align: left;
+    margin-top: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+a:hover{
+    color:#0056b3;
+    border-bottom: 1px solid #0056b3;
+}
